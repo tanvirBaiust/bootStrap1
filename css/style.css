@@ -1,0 +1,21 @@
+.box-1{
+    height: 200px;
+    width: 400px;
+    background-color: orange;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: indianred;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px){
+    body{
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 1000px){
+    body{
+        background-color: yellowgreen;
+    }
+}
